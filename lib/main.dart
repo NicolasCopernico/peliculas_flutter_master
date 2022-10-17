@@ -12,10 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Películas',
       initialRoute: '/',
-      routes: {
-        '/': (context) => HomePage(),
-        'detalle': (context) => PeliculaDetalle()
-      },
+      routes: {},
     );
   }
 }
